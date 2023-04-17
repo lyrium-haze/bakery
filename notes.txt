@@ -1,0 +1,7 @@
+content box vs border box
+border захватывает падинги и границы
+
+rem vs other
+
+про сброс стилей
+h2 vs other !!!
