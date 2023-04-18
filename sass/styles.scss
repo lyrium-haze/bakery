@@ -26,6 +26,7 @@ html {
 	color: $dark-color;
 }
 body {
+	width: 1280px;
     margin: 0;
     padding: 0;
     font-size: 1.5rem;
@@ -171,6 +172,11 @@ body {
 		color: $accent-color;
 	}
 }
+.offers {
+	&__title {
+		margin-top: 8rem;
+	}
+}
 .cards {
 	display: flex;
 	flex-wrap: wrap;
@@ -228,6 +234,7 @@ body {
 .reasons {
 	&__inner {
 		padding-top: 2rem;
+		margin-top: 2rem;
 		margin-bottom: 8.9rem;
 		display: flex;
 		gap: 3rem;
@@ -276,7 +283,7 @@ body {
 		margin: 3rem auto;
 	}
 }
-.offer {
+.gift {
 	&__inner {
 		margin-top: 8rem;
 		display: flex;

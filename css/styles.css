@@ -71,6 +71,7 @@ html {
   color: #1F1F1F; }
 
 body {
+  width: 1280px;
   margin: 0;
   padding: 0;
   font-size: 1.5rem;
@@ -196,6 +197,9 @@ body {
   .title_orange {
     color: #FF8126; }
 
+.offers__title {
+  margin-top: 8rem; }
+
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -242,6 +246,7 @@ body {
 
 .reasons__inner {
   padding-top: 2rem;
+  margin-top: 2rem;
   margin-bottom: 8.9rem;
   display: flex;
   gap: 3rem; }
@@ -277,18 +282,18 @@ body {
     display: block;
     margin: 3rem auto; }
 
-.offer__inner {
+.gift__inner {
   margin-top: 8rem;
   display: flex;
   gap: 3.1rem; }
   @media (max-width: 991px) {
-    .offer__inner {
+    .gift__inner {
       flex-direction: column; } }
-.offer__img {
+.gift__img {
   width: 50%; }
-.offer__info {
+.gift__info {
   max-width: 50%; }
-.offer__text {
+.gift__text {
   font-weight: 500;
   line-height: 2.4rem;
   font-size: 1.6rem;
